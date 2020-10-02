@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+  }
+
+.content{
+    margin: 0% auto;
+    width: 1166px;
+}
+
+nav {
+    font-style: normal;
+    font-size: 20px;
+    padding: 20px 40px 20px 40 px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    max-width: 1166px;
+    top: 0;
+    left:0;
+    right:0;
+    width: 100%;
+    margin: 0 auto;
+    /*width: 1166px; */
+
+}
+
+nav ul a {
+    margin-left: 96px;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+a{ color:#333333;
+    text-decoration:none
+}
+
+a:hover {
+    color: #b1b1b1;
+  }
+
+.here{
+    text-decoration: none; 
+    border-bottom: 3px solid #333333;
+
+
+  }
+.name {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+
+h2{font-size: 30px;
+    font-weight: 400;
+    width: 900px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+
+}
+
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    color:#333333;   
+}
+
+p{
+    font-size: 20px;
+    margin-top: 4%;
+    font-weight: 400;
+    color: #3333339f;
+}
+
+
+h3{font-size: 40px;
+    margin-bottom: 2%;
+    font-weight: 700;
+}
+
+h4{text-align: center;
+    font-size: 15px;
+    padding-bottom: 2%;
+}
+
+#linkedin {
+    width: 40px;
+    height: 40px;
+    margin-right: 24px;
+   
+}
+#instagram {
+    width: 40px;
+    height: 40px;
+    margin-right: 24px;
+ 
+}
+#medium {
+    width: 40px;
+    height: 40px;
+
+}
+
+#behance {
+    width: 40px;
+    height: 40px; 
+    margin-right: 24px;
+}
+
+.center{
+    margin: 0% auto;
+    width: 900px;
+}
+
+.social-networks{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+  button{
+    padding: 20px 32px;
+    text-align: center;
+    background-color: white;
+    color:#333333;
+  }
+
+  .hello{
+      display:flex;
+      align-items: center;
+      height: 100vh;
+  }
+
+  .footer{
+    background-color:#EBEBEB;
+    padding-top: 4%;
+  }
+  
+
+  .roteleft{
+    transform: rotate(270deg);
+    white-space: nowrap;
+    text-align: left;
+}
+    .roteright{
+display:flex;
+    transform: rotate(90deg);
+    white-space: nowrap;
+    align-items: initial;
+}
+
+.heart {
+    fill:#F2D645;
+    position: relative;
+    top: 0px;
+    width: 10px;
+    animation: pulse 1s ease infinite;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+  }  
+
+
+.textimage{
+    position: absolute;
+    top: 300px;
+    left: 490px;
+  }
+
+.aboutme{
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    right:140px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1166px;
+}
+
+#yo {
+    margin-left: 100px;
+    margin-bottom: 250px;
+}
+
+.description { 
+    margin-top: 200px;
+}
+
+.links{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 600px;
+    line-height: 60px;
+}
+.separacion{
+    margin-left: 100px;
+}
